@@ -1,6 +1,13 @@
 # Simple stack smashing tool
 A simple stack smash tool that I designed for use in CPSC213
 
+##
+To configure the tool to run from anywhere, add a symbolic link `stacksmash` to one of your `/bin/` directories (I used `/usr/local/bin/`). I set mine up as:
+    
+    /usr/local/bin/$ sudo ln ~/dev/tools/simplestacksmashtool/stacksmash stacksmash
+        
+where `~/dev/tools/simplestacksmashtool/` is the folder for this repository. In addition, inside of the `stacksmash` file, change the directory to match where it is located on your device. Perhaps I will eventually add some files that auto-configure all of this (including adding it to the binaries folders).
+
 ## Using command line arguments
 #### beginstr:
 The code that you want to run in hexadecimal
