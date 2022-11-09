@@ -1,0 +1,2 @@
+#!/bin/sh
+python3 ~/dev/tools/simplestacksmashtool/stacksmashtool.py $1 $2 $3
